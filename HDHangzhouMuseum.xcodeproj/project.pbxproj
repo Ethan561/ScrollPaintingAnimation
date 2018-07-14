@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		355CE8871CA387D1000F906F /* Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CE8861CA387D1000F906F /* Transition.m */; };
+		35751C861C85724E001F0D8C /* UIImageView+MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35751C851C85724E001F0D8C /* UIImageView+MyImageView.m */; };
+		35751C891C8597D0001F0D8C /* UIButton+MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35751C881C8597D0001F0D8C /* UIButton+MyButton.m */; };
+		FB5129131C7D488500844315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5129031C7D488500844315 /* AppDelegate.m */; };
+		FB5129141C7D488500844315 /* HDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5129061C7D488500844315 /* HDLaunchViewController.m */; };
+		FB5129151C7D488500844315 /* HDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5129081C7D488500844315 /* HDRootViewController.m */; };
+		FB51291B1C7D4B7700844315 /* ImageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB51291A1C7D4B7700844315 /* ImageContentView.m */; };
+		FB51291E1C7D72C700844315 /* GIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB51291D1C7D72C700844315 /* GIFImageView.m */; };
+		FB5129201C7D731100844315 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB51291F1C7D731100844315 /* QuartzCore.framework */; };
+		FB5129221C7D731B00844315 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5129211C7D731B00844315 /* ImageIO.framework */; };
+		FB5129241C7D78A100844315 /* butterfly.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB5129231C7D78A100844315 /* butterfly.gif */; };
+		FB58D7531C7EE5090065ED41 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58D7521C7EE5090065ED41 /* TestViewController.m */; };
+		FB5BDEEA1C7C0C5200BB2A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5BDEE91C7C0C5200BB2A60 /* main.m */; };
+		FB5BDEF31C7C0C5200BB2A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5BDEF11C7C0C5200BB2A60 /* Main.storyboard */; };
+		FB5BDEF51C7C0C5200BB2A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5BDEF41C7C0C5200BB2A60 /* Assets.xcassets */; };
+		FB5BDEF81C7C0C5200BB2A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5BDEF61C7C0C5200BB2A60 /* LaunchScreen.storyboard */; };
+		FB5BDF031C7C0C5200BB2A60 /* HDHangzhouMuseumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5BDF021C7C0C5200BB2A60 /* HDHangzhouMuseumTests.m */; };
+		FB5BDF0E1C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5BDF0D1C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.m */; };
+		FB5BDF231C7C1F7000BB2A60 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5BDF221C7C1F7000BB2A60 /* AVFoundation.framework */; };
+		FB5BDF251C7C271D00BB2A60 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5BDF241C7C271D00BB2A60 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5BDEFF1C7C0C5200BB2A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5BDEDD1C7C0C5200BB2A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5BDEE41C7C0C5200BB2A60;
+			remoteInfo = HDHangzhouMuseum;
+		};
+		FB5BDF0A1C7C0C5200BB2A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5BDEDD1C7C0C5200BB2A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5BDEE41C7C0C5200BB2A60;
+			remoteInfo = HDHangzhouMuseum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		355CE8841CA387AD000F906F /* HDHangzhouMuseum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HDHangzhouMuseum-Prefix.pch"; sourceTree = "<group>"; };
+		355CE8851CA387D1000F906F /* Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transition.h; sourceTree = "<group>"; };
+		355CE8861CA387D1000F906F /* Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transition.m; sourceTree = "<group>"; };
+		35751C841C85724E001F0D8C /* UIImageView+MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MyImageView.h"; sourceTree = "<group>"; };
+		35751C851C85724E001F0D8C /* UIImageView+MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MyImageView.m"; sourceTree = "<group>"; };
+		35751C871C8597D0001F0D8C /* UIButton+MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MyButton.h"; sourceTree = "<group>"; };
+		35751C881C8597D0001F0D8C /* UIButton+MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MyButton.m"; sourceTree = "<group>"; };
+		FB5129021C7D488500844315 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB5129031C7D488500844315 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB5129051C7D488500844315 /* HDLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLaunchViewController.h; sourceTree = "<group>"; };
+		FB5129061C7D488500844315 /* HDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLaunchViewController.m; sourceTree = "<group>"; };
+		FB5129071C7D488500844315 /* HDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRootViewController.h; sourceTree = "<group>"; };
+		FB5129081C7D488500844315 /* HDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRootViewController.m; sourceTree = "<group>"; };
+		FB5129191C7D4B7700844315 /* ImageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageContentView.h; sourceTree = "<group>"; };
+		FB51291A1C7D4B7700844315 /* ImageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageContentView.m; sourceTree = "<group>"; };
+		FB51291C1C7D72C700844315 /* GIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFImageView.h; sourceTree = "<group>"; };
+		FB51291D1C7D72C700844315 /* GIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFImageView.m; sourceTree = "<group>"; };
+		FB51291F1C7D731100844315 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB5129211C7D731B00844315 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FB5129231C7D78A100844315 /* butterfly.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = butterfly.gif; sourceTree = "<group>"; };
+		FB58D7511C7EE5090065ED41 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		FB58D7521C7EE5090065ED41 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		FB5BDEE51C7C0C5200BB2A60 /* HDHangzhouMuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDHangzhouMuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5BDEE91C7C0C5200BB2A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB5BDEF21C7C0C5200BB2A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5BDEF41C7C0C5200BB2A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5BDEF71C7C0C5200BB2A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5BDEF91C7C0C5200BB2A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5BDEFE1C7C0C5200BB2A60 /* HDHangzhouMuseumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDHangzhouMuseumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5BDF021C7C0C5200BB2A60 /* HDHangzhouMuseumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDHangzhouMuseumTests.m; sourceTree = "<group>"; };
+		FB5BDF041C7C0C5200BB2A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5BDF091C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDHangzhouMuseumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5BDF0D1C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDHangzhouMuseumUITests.m; sourceTree = "<group>"; };
+		FB5BDF0F1C7C0C5200BB2A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5BDF221C7C1F7000BB2A60 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FB5BDF241C7C271D00BB2A60 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5BDEE21C7C0C5200BB2A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5129221C7D731B00844315 /* ImageIO.framework in Frameworks */,
+				FB5129201C7D731100844315 /* QuartzCore.framework in Frameworks */,
+				FB5BDF251C7C271D00BB2A60 /* MediaPlayer.framework in Frameworks */,
+				FB5BDF231C7C1F7000BB2A60 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BDEFB1C7C0C5200BB2A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BDF061C7C0C5200BB2A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355CE8881CA387DB000F906F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB5129211C7D731B00844315 /* ImageIO.framework */,
+				FB51291F1C7D731100844315 /* QuartzCore.framework */,
+				FB5BDF241C7C271D00BB2A60 /* MediaPlayer.framework */,
+				FB5BDF221C7C1F7000BB2A60 /* AVFoundation.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB5129011C7D488500844315 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB5129021C7D488500844315 /* AppDelegate.h */,
+				FB5129031C7D488500844315 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FB5129041C7D488500844315 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB5129051C7D488500844315 /* HDLaunchViewController.h */,
+				FB5129061C7D488500844315 /* HDLaunchViewController.m */,
+				FB5129071C7D488500844315 /* HDRootViewController.h */,
+				FB5129081C7D488500844315 /* HDRootViewController.m */,
+				FB58D7511C7EE5090065ED41 /* TestViewController.h */,
+				FB58D7521C7EE5090065ED41 /* TestViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB5129091C7D488500844315 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				35751C841C85724E001F0D8C /* UIImageView+MyImageView.h */,
+				35751C851C85724E001F0D8C /* UIImageView+MyImageView.m */,
+				35751C871C8597D0001F0D8C /* UIButton+MyButton.h */,
+				35751C881C8597D0001F0D8C /* UIButton+MyButton.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FB51290F1C7D488500844315 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				355CE8851CA387D1000F906F /* Transition.h */,
+				355CE8861CA387D1000F906F /* Transition.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB5129101C7D488500844315 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FB5129231C7D78A100844315 /* butterfly.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FB5129121C7D488500844315 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB5129191C7D4B7700844315 /* ImageContentView.h */,
+				FB51291A1C7D4B7700844315 /* ImageContentView.m */,
+				FB51291C1C7D72C700844315 /* GIFImageView.h */,
+				FB51291D1C7D72C700844315 /* GIFImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB5BDEDC1C7C0C5200BB2A60 = {
+			isa = PBXGroup;
+			children = (
+				FB5BDEE71C7C0C5200BB2A60 /* HDHangzhouMuseum */,
+				FB5BDF011C7C0C5200BB2A60 /* HDHangzhouMuseumTests */,
+				FB5BDF0C1C7C0C5200BB2A60 /* HDHangzhouMuseumUITests */,
+				FB5BDEE61C7C0C5200BB2A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5BDEE61C7C0C5200BB2A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BDEE51C7C0C5200BB2A60 /* HDHangzhouMuseum.app */,
+				FB5BDEFE1C7C0C5200BB2A60 /* HDHangzhouMuseumTests.xctest */,
+				FB5BDF091C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5BDEE71C7C0C5200BB2A60 /* HDHangzhouMuseum */ = {
+			isa = PBXGroup;
+			children = (
+				FB5129011C7D488500844315 /* AppDelegate */,
+				FB5129041C7D488500844315 /* Controllers */,
+				FB5129121C7D488500844315 /* View */,
+				FB5129091C7D488500844315 /* General */,
+				FB51290F1C7D488500844315 /* Model */,
+				FB5129101C7D488500844315 /* Resource */,
+				355CE8881CA387DB000F906F /* Frameworks */,
+				FB5BDEF11C7C0C5200BB2A60 /* Main.storyboard */,
+				FB5BDEF41C7C0C5200BB2A60 /* Assets.xcassets */,
+				FB5BDEF61C7C0C5200BB2A60 /* LaunchScreen.storyboard */,
+				FB5BDEF91C7C0C5200BB2A60 /* Info.plist */,
+				355CE8841CA387AD000F906F /* HDHangzhouMuseum-Prefix.pch */,
+				FB5BDEE81C7C0C5200BB2A60 /* Supporting Files */,
+			);
+			path = HDHangzhouMuseum;
+			sourceTree = "<group>";
+		};
+		FB5BDEE81C7C0C5200BB2A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BDEE91C7C0C5200BB2A60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB5BDF011C7C0C5200BB2A60 /* HDHangzhouMuseumTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BDF021C7C0C5200BB2A60 /* HDHangzhouMuseumTests.m */,
+				FB5BDF041C7C0C5200BB2A60 /* Info.plist */,
+			);
+			path = HDHangzhouMuseumTests;
+			sourceTree = "<group>";
+		};
+		FB5BDF0C1C7C0C5200BB2A60 /* HDHangzhouMuseumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BDF0D1C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.m */,
+				FB5BDF0F1C7C0C5200BB2A60 /* Info.plist */,
+			);
+			path = HDHangzhouMuseumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5BDEE41C7C0C5200BB2A60 /* HDHangzhouMuseum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5BDF121C7C0C5200BB2A60 /* Build configuration list for PBXNativeTarget "HDHangzhouMuseum" */;
+			buildPhases = (
+				FB5BDEE11C7C0C5200BB2A60 /* Sources */,
+				FB5BDEE21C7C0C5200BB2A60 /* Frameworks */,
+				FB5BDEE31C7C0C5200BB2A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDHangzhouMuseum;
+			productName = HDHangzhouMuseum;
+			productReference = FB5BDEE51C7C0C5200BB2A60 /* HDHangzhouMuseum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5BDEFD1C7C0C5200BB2A60 /* HDHangzhouMuseumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5BDF151C7C0C5200BB2A60 /* Build configuration list for PBXNativeTarget "HDHangzhouMuseumTests" */;
+			buildPhases = (
+				FB5BDEFA1C7C0C5200BB2A60 /* Sources */,
+				FB5BDEFB1C7C0C5200BB2A60 /* Frameworks */,
+				FB5BDEFC1C7C0C5200BB2A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5BDF001C7C0C5200BB2A60 /* PBXTargetDependency */,
+			);
+			name = HDHangzhouMuseumTests;
+			productName = HDHangzhouMuseumTests;
+			productReference = FB5BDEFE1C7C0C5200BB2A60 /* HDHangzhouMuseumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB5BDF081C7C0C5200BB2A60 /* HDHangzhouMuseumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5BDF181C7C0C5200BB2A60 /* Build configuration list for PBXNativeTarget "HDHangzhouMuseumUITests" */;
+			buildPhases = (
+				FB5BDF051C7C0C5200BB2A60 /* Sources */,
+				FB5BDF061C7C0C5200BB2A60 /* Frameworks */,
+				FB5BDF071C7C0C5200BB2A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5BDF0B1C7C0C5200BB2A60 /* PBXTargetDependency */,
+			);
+			name = HDHangzhouMuseumUITests;
+			productName = HDHangzhouMuseumUITests;
+			productReference = FB5BDF091C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5BDEDD1C7C0C5200BB2A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = liuyi;
+				TargetAttributes = {
+					FB5BDEE41C7C0C5200BB2A60 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B5K9YR6DRJ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					FB5BDEFD1C7C0C5200BB2A60 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FB5BDEE41C7C0C5200BB2A60;
+					};
+					FB5BDF081C7C0C5200BB2A60 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FB5BDEE41C7C0C5200BB2A60;
+					};
+				};
+			};
+			buildConfigurationList = FB5BDEE01C7C0C5200BB2A60 /* Build configuration list for PBXProject "HDHangzhouMuseum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5BDEDC1C7C0C5200BB2A60;
+			productRefGroup = FB5BDEE61C7C0C5200BB2A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5BDEE41C7C0C5200BB2A60 /* HDHangzhouMuseum */,
+				FB5BDEFD1C7C0C5200BB2A60 /* HDHangzhouMuseumTests */,
+				FB5BDF081C7C0C5200BB2A60 /* HDHangzhouMuseumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5BDEE31C7C0C5200BB2A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5129241C7D78A100844315 /* butterfly.gif in Resources */,
+				FB5BDEF81C7C0C5200BB2A60 /* LaunchScreen.storyboard in Resources */,
+				FB5BDEF51C7C0C5200BB2A60 /* Assets.xcassets in Resources */,
+				FB5BDEF31C7C0C5200BB2A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BDEFC1C7C0C5200BB2A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BDF071C7C0C5200BB2A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5BDEE11C7C0C5200BB2A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5129151C7D488500844315 /* HDRootViewController.m in Sources */,
+				355CE8871CA387D1000F906F /* Transition.m in Sources */,
+				FB5129141C7D488500844315 /* HDLaunchViewController.m in Sources */,
+				FB51291B1C7D4B7700844315 /* ImageContentView.m in Sources */,
+				35751C891C8597D0001F0D8C /* UIButton+MyButton.m in Sources */,
+				35751C861C85724E001F0D8C /* UIImageView+MyImageView.m in Sources */,
+				FB5129131C7D488500844315 /* AppDelegate.m in Sources */,
+				FB5BDEEA1C7C0C5200BB2A60 /* main.m in Sources */,
+				FB58D7531C7EE5090065ED41 /* TestViewController.m in Sources */,
+				FB51291E1C7D72C700844315 /* GIFImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BDEFA1C7C0C5200BB2A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5BDF031C7C0C5200BB2A60 /* HDHangzhouMuseumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5BDF051C7C0C5200BB2A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5BDF0E1C7C0C5200BB2A60 /* HDHangzhouMuseumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5BDF001C7C0C5200BB2A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5BDEE41C7C0C5200BB2A60 /* HDHangzhouMuseum */;
+			targetProxy = FB5BDEFF1C7C0C5200BB2A60 /* PBXContainerItemProxy */;
+		};
+		FB5BDF0B1C7C0C5200BB2A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5BDEE41C7C0C5200BB2A60 /* HDHangzhouMuseum */;
+			targetProxy = FB5BDF0A1C7C0C5200BB2A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5BDEF11C7C0C5200BB2A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5BDEF21C7C0C5200BB2A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5BDEF61C7C0C5200BB2A60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5BDEF71C7C0C5200BB2A60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5BDF101C7C0C5200BB2A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = HDHangzhouMuseum/HDHangzhouMuseum.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Shijieli (QBT3QBDDTY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Shijieli (QBT3QBDDTY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDHangzhouMuseum/Macro/HDHangzhouMuseum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "65ab0996-e394-4c5b-bf41-eead5c273fa4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5BDF111C7C0C5200BB2A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = HDHangzhouMuseum/HDHangzhouMuseum.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Shijieli (QBT3QBDDTY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Shijieli (QBT3QBDDTY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDHangzhouMuseum/Macro/HDHangzhouMuseum-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "65ab0996-e394-4c5b-bf41-eead5c273fa4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5BDF131C7C0C5200BB2A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREFIX_HEADER = "HDHangzhouMuseum/HDHangzhouMuseum-Prefix.pch";
+				INFOPLIST_FILE = HDHangzhouMuseum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hengdawb.HDHangzhouMuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FB5BDF141C7C0C5200BB2A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "HDHangzhouMuseum/HDHangzhouMuseum-Prefix.pch";
+				INFOPLIST_FILE = HDHangzhouMuseum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hengdawb.HDHangzhouMuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FB5BDF161C7C0C5200BB2A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HDHangzhouMuseumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hengdawb.HDHangzhouMuseumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDHangzhouMuseum.app/HDHangzhouMuseum";
+			};
+			name = Debug;
+		};
+		FB5BDF171C7C0C5200BB2A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HDHangzhouMuseumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hengdawb.HDHangzhouMuseumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDHangzhouMuseum.app/HDHangzhouMuseum";
+			};
+			name = Release;
+		};
+		FB5BDF191C7C0C5200BB2A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HDHangzhouMuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hengdawb.HDHangzhouMuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HDHangzhouMuseum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB5BDF1A1C7C0C5200BB2A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HDHangzhouMuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hengdawb.HDHangzhouMuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HDHangzhouMuseum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5BDEE01C7C0C5200BB2A60 /* Build configuration list for PBXProject "HDHangzhouMuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BDF101C7C0C5200BB2A60 /* Debug */,
+				FB5BDF111C7C0C5200BB2A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5BDF121C7C0C5200BB2A60 /* Build configuration list for PBXNativeTarget "HDHangzhouMuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BDF131C7C0C5200BB2A60 /* Debug */,
+				FB5BDF141C7C0C5200BB2A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5BDF151C7C0C5200BB2A60 /* Build configuration list for PBXNativeTarget "HDHangzhouMuseumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BDF161C7C0C5200BB2A60 /* Debug */,
+				FB5BDF171C7C0C5200BB2A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5BDF181C7C0C5200BB2A60 /* Build configuration list for PBXNativeTarget "HDHangzhouMuseumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BDF191C7C0C5200BB2A60 /* Debug */,
+				FB5BDF1A1C7C0C5200BB2A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5BDEDD1C7C0C5200BB2A60 /* Project object */;
+}

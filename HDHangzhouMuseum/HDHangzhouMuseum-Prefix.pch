@@ -1,0 +1,33 @@
+//
+//  HDHangzhouMuseum-Prefix.pch
+//  HDHangzhouMuseum
+//
+//  Created by hengda2015mini on 16/2/23.
+//  Copyright © 2016年 liuyi. All rights reserved.
+//
+
+#ifndef HDHangzhouMuseum_Prefix_pch
+#define HDHangzhouMuseum_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Transition.h"
+#define ScreenWidth    [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight   [UIScreen mainScreen].bounds.size.height
+
+// Log宏定义，在debug时输出，在release时不产生输出
+#ifdef DEBUG
+#define LOG(...) NSLog(__VA_ARGS__);
+#define LOG_METHOD NSLog(@"%s", __func__);
+#define LOG_CMETHOD NSLog(@"%@/%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd))
+#define COUNT(p) NSLog(@"%s(%d): count = %d\n", __func__, __LINE__, [p retainCount]);
+#define LOG_TRACE(x) do {printf x; putchar('\n'); fflush(stdout);} while (0)
+#else
+#define LOG(...);
+#define LOG_METHOD
+#define LOG_CMETHOD
+#define COUNT(p)
+#define LOG_TRACE(x)
+#endif
+
+#endif /* HDHangzhouMuseum_Prefix_pch */
